@@ -1384,7 +1384,8 @@ SendToContext -Hide
 
 # Hide the "Turn on BitLocker" item from the drives context menu
 # Скрыть пункт "Включить BitLocker" из контекстного меню дисков
-BitLockerContext -Hide
+# Change: Keep default bitlocker settings
+# BitLockerContext -Hide
 
 # Show the "Turn on BitLocker" item in the drives context menu (default value)
 # Отобразить пункт "Включить BitLocker" в контекстном меню дисков (значение по умолчанию)
